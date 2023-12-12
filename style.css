@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.firstline{
+    justify-content: space-between;
+    padding: 3vw 2vw;
+    font-size: 4.5vmin;
+    height: 3em;
+    align-items: center;
+}
+.again{
+    font-size: 4.5vmin;
+    padding: 2vh 3vw;
+    border-radius: 2vh;
+}
+.firstline,.secondLine{
+    width: 100vw;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+.secondLine{
+    justify-content: space-evenly;
+    font-size: 4.5vmin;
+    height: 7em;
+    /*padding: 3vh 0vh 3em 0vh;*/
+    box-sizing: border-box;
+    border-bottom: 4px solid whitesmoke;
+}
+.contentHolder{
+    margin-top: 1.5em
+}
+.guess{
+    width: 5em;
+    height: 4em;
+    position: absolute;
+    background: white;
+    top: 70%;
+    color:black;
+}
+.onlyCorrectNumberDisplay{
+    font-size: 45px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.lastline{
+    width: 100vw;
+    height: calc(100vh - 22em);
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: space-around;
+}
+.inputfield,.resultfield{
+    box-sizing: border-box;
+    font-size: 5vmin;
+    margin: auto;
+}
+.randomNumberInput{
+    width: 17vmax;
+    font-size: 3rem;
+}
+.again:hover{
+    background-color: rgba(245, 245, 220, 0.882);
+}
+.again:active{
+    background-color: aqua;
+}
